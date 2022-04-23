@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import {
   MdWeb,
@@ -10,6 +11,9 @@ import { SiAmazonaws, SiWordpress, SiGoogleanalytics, SiFirebase, SiJavascript }
 function services() {
   return (
     <div>
+      <Head>
+        <title>Our Best Services</title>
+      </Head>
       <div className="flex-col justify-center items-center my-10">
         <p className="text-violet-500 uppercase text-center">Services</p>
         <h2 className="text-5xl text-center">

@@ -4,15 +4,16 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { db } from "../utils/firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, query } from "firebase/firestore";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 
 
 const contact = () => {
 
     const [fname, setFname] = useState('');
-    const [lname, setLname] = useState('');
+    const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [number, setNumber] = useState('');
 
@@ -21,7 +22,7 @@ const contact = () => {
     const addData = () => {
         addDoc(databaseRef, {
             fname: fname,
-            lname: lname,
+            subject: subject,
             email: email,
             number: number
         })
@@ -29,7 +30,7 @@ const contact = () => {
                 router.push('/thankyou');
 
                 setFname('');
-                setLname('');
+                setSubject('');
                 setEmail('');
                 setNumber(null);
             })
@@ -40,6 +41,9 @@ const contact = () => {
 
     return (
         <div>
+            <Head>
+                <title>INFuture Community Support</title>
+            </Head>
             <div className=" text-white text-center items-center my-10">
                 <div className="px-10">
                     <h1 className="text-5xl my-5 ">Contact Us!</h1>
@@ -74,28 +78,28 @@ const contact = () => {
                                 <div className="mb-4 md:flex md:justify-between">
                                     <div className="mb-4 md:mr-2 md:mb-0">
                                         <label className="block mb-2 text-sm font-bold text-gray-700" >
-                                            First Name
+                                            Full Name
                                         </label>
                                         <input
                                             className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                                             id="firstName"
                                             type="text"
-                                            placeholder="First Name"
+                                            placeholder="Full Name"
                                             value={fname}
                                             onChange={(e) => { setFname(e.target.value) }}
                                         />
                                     </div>
                                     <div className="md:ml-2">
                                         <label className="block mb-2 text-sm font-bold text-gray-700">
-                                            Last Name
+                                            Query
                                         </label>
                                         <input
                                             className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-                                            id="lastName"
+                                            id="subject"
                                             type="text"
-                                            placeholder="Last Name"
-                                            value={lname}
-                                            onChange={(e) => { setLname(e.target.value) }}
+                                            placeholder="Your Query"
+                                            value={subject}
+                                            onChange={(e) => { setSubject(e.target.value) }}
                                         />
                                     </div>
                                 </div>
