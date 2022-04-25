@@ -6,8 +6,8 @@ const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Services", href: "services", current: false },
   { name: "Projects", href: "projects", current: false },
-  { name: "Team", href: "team", current: false }
-  // { name: "News", href: "techNews", current: false }
+  { name: "Developers", href: "team", current: false },
+  { name: "Tech_News", href: "techNews", current: false }
 ];
 
 function classNames(...classes) {
@@ -80,7 +80,7 @@ export default function Navbar() {
                   className={classNames(
                     item.current
                       ? "bg-violet-500 shadow-lg text-white"
-                      : "text-gray-300 hover:bg-violet-500 hover:shadow-lg hover:text-white",
+                      : "text-gray-700 hover:bg-violet-500 hover:shadow-lg hover:text-white",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

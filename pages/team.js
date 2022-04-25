@@ -2,10 +2,10 @@ import React from 'react';
 import Image from "next/image";
 import Head from "next/head";
 import HeroImage from "../public/images/test3.jpg";
-import HeroImage1 from "../public/images/ravinder.JPG";
+import HeroImage1 from "../public/images/thiru.jpg";
 import HeroImage2 from "../public/images/saurabh.jpg";
 import HeroImage3 from "../public/images/gana.jpg";
-import HeroImage4 from "../public/images/rakesh.jpeg";
+import HeroImage4 from "../public/images/lucky.jpeg";
 
 
 
@@ -45,13 +45,12 @@ const team = () => {
                             />
                         </div>
                         <div className="flex-col px-10">
-                            <h3 className='my-1 text-3xl '><span className='text-orange-400 '>Founder</span> & Managing Director [MD] </h3>
-                            <span className='text-orange-400 text-bold my-4'>MUDAVATH RAVINDER</span>
+                            <h3 className='my-1 text-3xl '><span className='text-orange-400 '>Founder</span> & CEO </h3>
+                            <span className='text-orange-400 text-bold my-4'>P. Thiru Narayanan</span>
                             <p>My skills and capabilities include but not limited to custom Web Development, Design and Web Animations, Flutter app development. Besides these, I have knowledge in Search Engine Optimization (SEO) and Content Management Systems like WordPress.</p>
-                            <p><span className='text-gray-400'>Education</span>: Bachelers from IIT, Madras</p>
+                            <p><span className='text-gray-400'>Education</span>: Bacheler's from IIT, Bombay</p>
                             <p><span className='text-gray-400'>Skils</span>: Leadership, Marketing, NODE, MONGODB, and FLASK</p>
-                            <p><span className='text-gray-400'>Email</span>: <a className='text-blue-400' href='http://www.santhosh.gq/'>rameshravinder3@gmail.com</a></p>
-                            <p><span className='text-gray-400'>Website</span>: <a className='text-blue-400' href='http://www.santhosh.gq/'>www.ravinder.ml</a></p>
+                            <p><span className='text-gray-400'>Email</span>: <a className='text-blue-400'>santhosh.m0719@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -76,8 +75,8 @@ const team = () => {
                                         alt='Ganesh - Programmer'
                                     />
                                     <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold text-blueGray-700">Santhosh Naik</h5>
-                                        <p className="mt-1 text-sm text-violet-400 uppercase font-semibold"> Web Developer</p>
+                                        <h5 className="text-xl font-bold text-blueGray-700">M. Santhosh</h5>
+                                        <p className="mt-1 text-sm text-violet-400 uppercase font-semibold">React Expert</p>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +91,7 @@ const team = () => {
                                         alt='Rakesh- Designer'
                                     />
                                     <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold text-blueGray-700">M. Rakesh</h5>
+                                        <h5 className="text-xl font-bold text-blueGray-700">M.Laxman Naik</h5>
                                         <p className="mt-1 text-sm text-violet-400 uppercase font-semibold">
                                             MUI/UX Designer
                                         </p>
@@ -110,9 +109,9 @@ const team = () => {
                                         alt='Thirupathi - Marketing '
                                     />
                                     <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold text-blueGray-700">Ganesh Naik</h5>
+                                        <h5 className="text-xl font-bold text-blueGray-700">M. Ganesh Naik</h5>
                                         <p className="mt-1 text-sm text-violet-400 uppercase font-semibold">
-                                            Marketing Specialist
+                                            Python & Django Expert
                                         </p>
                                     </div>
                                 </div>
@@ -129,8 +128,8 @@ const team = () => {
                                         alt='Laxman - Developer'
                                     />
                                     <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold text-blueGray-700">Laxman</h5>
-                                        <p className="mt-1 text-sm text-violet-400 uppercase font-semibold">Developer</p>
+                                        <h5 className="text-xl font-bold text-blueGray-700">Saurabh Yadav</h5>
+                                        <p className="mt-1 text-sm text-violet-400 uppercase font-semibold"> Android Developer</p>
                                     </div>
                                 </div>
                             </div>

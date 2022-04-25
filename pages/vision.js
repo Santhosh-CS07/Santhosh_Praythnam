@@ -24,7 +24,7 @@ function vision() {
                 <div className="w-10 h-1 bg-pink-300 absolute -left-10 z-0"></div>
 
                 <div className="flex-auto">
-                  <h1 className="text-xl font-bold">Get <span className="text-orange-500 text-2xl">FREE</span> Social Media Marketing and Goole Analytics Integration.</h1>
+                  <h1 className="text-xl font-bold">Get <span className="text-orange-500 text-2xl">FREE</span> Social Media Marketing and Google Analytics Integration.</h1>
                 </div>
               </div>
 

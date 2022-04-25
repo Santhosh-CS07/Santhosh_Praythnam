@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Image from "next/image";
 import socialMedia from "../public/images/social_media.png";
-import ravindersite from "../public/images/ravinder_site.png";
 import santhoshsite from "../public/images/santhosh_site.png";
 
 
@@ -61,24 +60,7 @@ export default function ProjectCard(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-4 md:w-1/3">
-                            <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
-                                <Image
-                                    class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                                    src={ravindersite}
-                                    alt="blog" />
-                                <div className="p-6">
-                                    <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">FULLSTACK</h2>
-                                    <h1 className="title-font text-lg font-medium text-gray-600 mb-3">Personal Website</h1>
-                                    <p className="leading-relaxed mb-3">This is a project for clients personal Website build using HTML5, CSS3, Bootastap and Javascript.</p>
-                                    <div className="flex items-center flex-wrap ">
-                                        <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
-                                            <a href='http://ravinder.ml/'>View Site</a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div className="p-4 md:w-1/3">
                             <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
                                 <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="blog" />

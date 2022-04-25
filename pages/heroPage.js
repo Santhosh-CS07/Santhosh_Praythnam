@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeroImage from "../public/images/logo.png";
+import HeroImage from "../public/images/hero.jpg";
 
 function heroPage() {
   return (
@@ -9,7 +9,7 @@ function heroPage() {
         <div className="flex-col px-10 ">
           <h1 className="text-6xl text-violet-500 font-bold">
             We are the{" "}
-            <span className="text-violet-900"><span className="text-orange-500">IN</span>Future Tech solution </span> for your{" "}
+            <span className="text-violet-900"><span className="text-orange-500">Fastest </span>& Complete Solution</span> for your{" "}
             <span className="text-violet-900 border-b border-blue-200">
               brand
             </span>
