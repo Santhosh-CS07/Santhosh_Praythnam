@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <Head>
-        <title>Computer Technology Company</title>
+        <title>A Computer Software Company</title>
         <meta name="description" content="A computer software company building Tools on Languages and The future Technologies." />
         <link rel="icon" href='https://www.svgrepo.com/show/225051/cpu.svg' />
       </Head>
