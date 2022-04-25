@@ -4,10 +4,10 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "Services", href: "services", current: false },
+  { name: "Services", href: "service", current: false },
   { name: "Projects", href: "projects", current: false },
-  { name: "Developers", href: "team", current: false },
-  { name: "Tech_News", href: "techNews", current: false }
+  { name: "Developer", href: "developer", current: false },
+  { name: "Tech_News", href: "technews", current: false }
 ];
 
 function classNames(...classes) {
@@ -36,7 +36,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center ">
                   <h1 className="font-semibold text-xl cursor-pointer ">
                     <a href='/'>
-                      <span className="text-orange-500">INFuture</span><span className="text-violet-500"> Tech</span>
+                      <span className="text-orange-500">M. Santhosh</span><span className="text-violet-500"> Naik</span>
                     </a>
                   </h1>
                 </div>

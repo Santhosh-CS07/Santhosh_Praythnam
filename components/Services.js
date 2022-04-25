@@ -17,7 +17,7 @@ function services() {
             <div className="flex-col justify-center items-center my-10">
                 <p className="text-violet-500 uppercase text-center">Services</p>
                 <h2 className="text-5xl text-center">
-                    <span className="text-white"> Our <span className="text-orange-500">Services</span></span>
+                    <span className="text-white"> My <span className="text-orange-500">Services</span></span>
                 </h2>
                 <div className="flex justify-center text-white items-center">
                     <div className="grid grid-cols-2 md:mx-0 mx-10 md:grid-cols-3 gap-5 my-20">

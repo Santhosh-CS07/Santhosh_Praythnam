@@ -1,11 +1,17 @@
 import React from "react";
+import Head from "next/head";
 
 function vision() {
   return (
     <div className="flex-col text-white justify-center items-center my-10">
+      <Head>
+        <title>Freelancer | FullStack Developer</title>
+        <meta name="description" content="A freelancer with React, Next.js, Node.js, and Django Skills - Looking to explore the technologies with your ideas." />
+        <link rel="icon" href='https://www.svgrepo.com/show/225051/cpu.svg' />
+      </Head>
       <p className="text-violet-500 uppercase text-center">Vision</p>
       <h2 className="text-5xl text-center">
-        <span className="text-orange-500">Our</span> Vision
+        <span className="text-orange-500">My</span> Vision
       </h2>
       <div className="min-w-7xl mx-0 md:mx-20">
         <div className=" flex md:flex-row flex-col justify-between items-center">
