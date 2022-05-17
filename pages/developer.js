@@ -44,7 +44,7 @@ const team = () => {
                             />
                         </div>
                         <div className="flex-col px-10">
-                            <h3 className='my-1 text-3xl '><span className='text-orange-400 '>Software Engineer</span> & FullStack Developer </h3>
+                            <h3 className='my-1 text-3xl '><span className='text-orange-400 '>Software Engineer</span> </h3>
                             <span className='text-orange-400 text-bold my-4'>M. Santhosh Naik</span>
                             <p>I am a FullStack Developer from passion and looking forword to Support small and large business to get benifited using Today's technologies. I am here today to struggle and learn as much as possible to build my DREAM. I love to CODE and also Love to think like a SUNDAR PICHAI.</p>
                             <p><span className='text-gray-400'>Education</span>: Bacheler's from <span className='text-orange-500'>GFTT</span>- Gurukula Kangri Vishwavidyalya, Uttarakhand</p>
