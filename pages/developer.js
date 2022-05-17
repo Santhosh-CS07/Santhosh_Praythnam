@@ -7,10 +7,6 @@ import Pic2 from "../public/images/pic2.jpg";
 import Pic3 from "../public/images/pic3.jpg";
 import Pic4 from "../public/images/lucky.jpeg";
 
-
-
-
-
 const team = () => {
     return (
         <div>
@@ -29,7 +25,7 @@ const team = () => {
                         <div className="flex-col px-10 border ">
                             <div className="text-1xl text-white-400 mt-5 mb-10 box-border-2">
                                 <p className='text-2xl my-3'>Press Contact</p>
-                                <p>A Freelancer Media Relations</p>
+                                <p>A Software Media Relations</p>
                                 <p className='text-blue-400'><a href='#'>santhosh.m0719@gmail.com</a></p>
                             </div>
                         </div>
@@ -48,7 +44,7 @@ const team = () => {
                             />
                         </div>
                         <div className="flex-col px-10">
-                            <h3 className='my-1 text-3xl '><span className='text-orange-400 '>Freelancer</span> & FullStack Developer </h3>
+                            <h3 className='my-1 text-3xl '><span className='text-orange-400 '>Software Engineer</span> & FullStack Developer </h3>
                             <span className='text-orange-400 text-bold my-4'>M. Santhosh Naik</span>
                             <p>I am a FullStack Developer from passion and looking forword to Support small and large business to get benifited using Today's technologies. I am here today to struggle and learn as much as possible to build my DREAM. I love to CODE and also Love to think like a SUNDAR PICHAI.</p>
                             <p><span className='text-gray-400'>Education</span>: Bacheler's from <span className='text-orange-500'>GFTT</span>- Gurukula Kangri Vishwavidyalya, Uttarakhand</p>

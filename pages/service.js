@@ -5,7 +5,7 @@ const services = () => {
   return (
     <div>
       <Head>
-        <title>My Web services | FullStack</title>
+        <title>My Software Skills | FullStack</title>
         <meta name="description" content="A freelancer with React, Next.js, Node.js, and Django Skills - Looking to explore the technologies with your ideas." />
         <link rel="icon" href='https://www.svgrepo.com/show/225051/cpu.svg' />
       </Head>
