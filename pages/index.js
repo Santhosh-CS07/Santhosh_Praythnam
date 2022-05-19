@@ -13,7 +13,7 @@ function Home() {
         <link rel="icon" href='https://www.svgrepo.com/show/225051/cpu.svg' />
       </Head>
       <HeroPage />
-      {/* <Services /> */}
+      <Services />
       <Vision />
       <Technologies />
       <Contact />
