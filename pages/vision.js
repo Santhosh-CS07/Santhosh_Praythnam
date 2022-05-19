@@ -5,7 +5,7 @@ function vision() {
   return (
     <div className="flex-col text-white justify-center items-center my-10">
       <Head>
-        <title>Freelancer | FullStack Developer</title>
+        <title>A Software Engineer | FullStack Developer</title>
         <meta name="description" content="A freelancer with React, Next.js, Node.js, and Django Skills - Looking to explore the technologies with your ideas." />
         <link rel="icon" href='https://www.svgrepo.com/show/225051/cpu.svg' />
       </Head>

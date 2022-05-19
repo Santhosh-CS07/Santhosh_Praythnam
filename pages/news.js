@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from "next/head";
 
-const techNews = () => {
+const news = () => {
     return (
         <div>
             <Head>
@@ -90,4 +90,4 @@ const techNews = () => {
     )
 }
 
-export default techNews;
+export default news;
