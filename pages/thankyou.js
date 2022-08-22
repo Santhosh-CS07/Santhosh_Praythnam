@@ -9,7 +9,7 @@ const thankyou = () => {
                         <div className="border-t border-gray-200 text-center pt-8">
                             <h2 className="text-8xl font-bold text-purple-400">Thank You!</h2>
                             <h3 className="text-6xl font-medium py-8">For connecting us!</h3>
-                            <p className="text-2xl pb-8 px-12 font-medium">Our team will get back to you soon | welcome to <span classNameName='text-orange-500'>INFuture</span> Tech for your bright business future.</p>
+                            <p className="text-2xl pb-8 px-12 font-medium">I will get back to you soon | welcome to Tech for your bright business future.</p>
                             <button className="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-20 py-3 rounded-md mr-6">
                                 <a href='/'> Home</a>
                             </button>

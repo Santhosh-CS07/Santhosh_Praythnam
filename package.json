@@ -1,5 +1,5 @@
 {
-  "name": "agency-website",
+  "name": "Santhosh-Portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
     "@mui/material": "^5.6.1",
-    "firebase": "^9.6.10",
+    "firebase": "^9.9.3",
     "js-cookie": "^2.2.1",
     "next": "12.1.4",
     "react": "18.0.0",

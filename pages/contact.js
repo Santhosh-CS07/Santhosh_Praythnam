@@ -17,27 +17,28 @@ const contact = () => {
     const [email, setEmail] = useState('');
     const [number, setNumber] = useState('');
 
+    const formValues = {
+        fname: fname,
+        subject: subject,
+        email: email,
+        number: number
+    }
     const router = useRouter();
     const databaseRef = collection(db, 'users');
-    const addData = () => {
-        addDoc(databaseRef, {
-            fname: fname,
-            subject: subject,
-            email: email,
-            number: number
-        })
-            .then(() => {
-                router.push('/thankyou');
 
-                setFname('');
-                setSubject('');
-                setEmail('');
-                setNumber(null);
-            })
-            .catch((err) => {
-                console.error(err);
-            })
-    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (!(formValues["number"] && formValues["email"] && formValues["fname"] && formValues["subject"]) == '') {
+            addDoc(databaseRef, formValues);
+            router.push("./thankyou")
+            setFname("");
+            setEmail("");
+            setSubject("");
+            setNumber("");
+        } else {
+            alert("Please fill the form ");
+        }
+    };
 
     return (
         <div>
@@ -135,7 +136,7 @@ const contact = () => {
                                     <button
                                         className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
                                         type="button"
-                                        onClick={addData}
+                                        onClick={handleSubmit}
                                     >
                                         Submit here
                                     </button>
