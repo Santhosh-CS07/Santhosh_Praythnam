@@ -5,7 +5,7 @@ import {
     MdOutlineDesignServices,
     MdChatBubbleOutline,
 } from "react-icons/md";
-import { SiAmazonaws, SiWordpress, SiGoogleanalytics, SiFirebase, SiJavascript } from "react-icons/si";
+import { SiAmazonaws, SiWordpress, SiGoogleanalytics, SiFirebase, SiJavascript, SiLinode, SiAzuredevops } from "react-icons/si";
 
 
 function services() {
@@ -68,6 +68,18 @@ function services() {
                             <SiJavascript className="text-4xl text-yellow-200 group-hover:text-white" />
                             <h1 className="text-xl text-white-800 font-semibold group-hover:text-white my-2">
                                 Javascript
+                            </h1>
+                        </div>
+                        <div className="group flex-col cursor-pointer justify-center items-center border hover:bg-violet-500 hover:shadow-lg  border-violet-100 rounded-md p-8 hover:border-violet-500">
+                            <SiLinode className="text-4xl text-yellow-200 group-hover:text-white" />
+                            <h1 className="text-xl text-white-800 font-semibold group-hover:text-white my-2">
+                                Nodejs
+                            </h1>
+                        </div>
+                        <div className="group flex-col cursor-pointer justify-center items-center border hover:bg-violet-500 hover:shadow-lg  border-violet-100 rounded-md p-8 hover:border-violet-500">
+                            <SiAzuredevops className="text-4xl text-yellow-200 group-hover:text-white" />
+                            <h1 className="text-xl text-white-800 font-semibold group-hover:text-white my-2">
+                                Microsoft Azure
                             </h1>
                         </div>
                     </div>

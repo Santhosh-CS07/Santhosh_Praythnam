@@ -8,8 +8,8 @@ function heroPage() {
       <div className=" flex md:flex-row flex-col justify-between items-center my-10">
         <div className="flex-col px-10 ">
           <h1 className="text-6xl text-violet-500 font-bold">
-            I am the{" "}
-            <span className="text-violet-900"><span className="text-orange-500">Fastest </span>& Complete Solution</span> for your{" "}
+            HI{" "}
+            <span className="text-violet-900"><span className="text-orange-500">welcome </span>to</span> MY Journey{" "}
             <span className="text-violet-900 border-b border-blue-200">
               brand
             </span>
